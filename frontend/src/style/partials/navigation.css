@@ -8,6 +8,7 @@
   z-index: 1000;
   background: #fff;
   border-right: 1px solid #edf0f5;
+  background: #dec9b7;
 }
 
 .logo {
@@ -20,6 +21,7 @@
 
 .sidebar-wraper {
   background: #fff;
+
   display: block;
 }
 

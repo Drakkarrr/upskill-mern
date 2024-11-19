@@ -38,6 +38,7 @@
 }
 .login-form-forgot {
   float: right;
+  color: #dec9b7;
 }
 
 .login-form-button {
@@ -81,7 +82,15 @@ h6 {
 
 .ant-menu-item {
   height: 36px !important;
+  /* color: aqua !important; */
 }
+
+.ant-menu-item-selected {
+  background-color: rgba(255, 166, 0, 0.701) !important;
+
+  color: #000 !important;
+}
+
 @media (max-width: 768px) {
   .tabContent .ant-tabs-right > .ant-tabs-content-holder > .ant-tabs-content > .ant-tabs-tabpane {
     padding-right: 0;

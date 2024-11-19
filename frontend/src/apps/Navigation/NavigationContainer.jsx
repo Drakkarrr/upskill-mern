@@ -135,8 +135,9 @@ function Sidebar({ collapsible, isMobile = false }) {
       className="navigation"
       width={256}
       style={{
-        overflow: 'auto',
+        overflow: 'hidden',
         height: '100vh',
+        background: '#dec9b7',
 
         position: isMobile ? 'absolute' : 'relative',
         bottom: '20px',
@@ -156,18 +157,18 @@ function Sidebar({ collapsible, isMobile = false }) {
           cursor: 'pointer',
         }}
       >
-        <img src={logoIcon} alt="Logo" style={{ marginLeft: '-5px', height: '40px' }} />
-
+        {/* <img src={logoIcon} alt="Logo" style={{ marginLeft: '-5px', height: '40px' }} /> */}
         {!showLogoApp && (
-          <img
-            src={logoText}
-            alt="Logo"
-            style={{
-              marginTop: '3px',
-              marginLeft: '10px',
-              height: '38px',
-            }}
-          />
+          // <img
+          //   src={logoText}
+          //   alt="Logo"
+          //   style={{
+          //     marginTop: '3px',
+          //     marginLeft: '10px',
+          //     height: '38px',
+          //   }}
+          // />
+          <h1>Logo Here</h1>
         )}
       </div>
       <Menu
@@ -177,6 +178,7 @@ function Sidebar({ collapsible, isMobile = false }) {
         selectedKeys={[currentPath]}
         style={{
           width: 256,
+          background: '#dec9b7',
         }}
       />
     </Sider>
