@@ -45,7 +45,7 @@ const LoginPage = () => {
             <Button
               type="primary"
               htmlType="submit"
-              className="login-form-button"
+              className="login-form-button bg-primary"
               loading={isLoading}
               size="large"
             >

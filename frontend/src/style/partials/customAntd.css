@@ -8,6 +8,11 @@
   background: #141414;
 }
 
+.bg-primary {
+  background-color: #dec9b7 !important;
+  color: #fff;
+}
+
 .headerIcon .ant-dropdown-menu {
   border-radius: 6px;
   background: none;
