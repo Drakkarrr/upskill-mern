@@ -18,7 +18,7 @@ const schema = new mongoose.Schema({
   // country: String,
   // address: String,
   // email: String,
-  customer: { type: mongoose.Schema.ObjectId, ref: 'Customer', autopopulate: true },
+  // customer: { type: mongoose.Schema.ObjectId, ref: 'Customer', autopopulate: true },
   createdBy: { type: mongoose.Schema.ObjectId, ref: 'Admin' },
   assigned: { type: mongoose.Schema.ObjectId, ref: 'Admin' },
   created: {
