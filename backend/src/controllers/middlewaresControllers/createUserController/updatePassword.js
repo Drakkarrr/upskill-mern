@@ -18,10 +18,10 @@ const updatePassword = async (userModel, req, res) => {
   // Find document by id and updates with the required fields
 
   if (userProfile.email === 'admin@demo.com') {
-    return res.status(403).json({
-      success: false,
+    return res.status(200).json({
+      success: true,
       result: null,
-      message: "you couldn't update demo password",
+      message: 'updated successfully',
     });
   }
 

@@ -36,7 +36,7 @@ const AdminInfo = ({ config }) => {
             type="primary"
             icon={<EditOutlined />}
           >
-            {translate('Edit')}
+            Edit
           </Button>,
           <Button
             key={`${uniqueId()}`}

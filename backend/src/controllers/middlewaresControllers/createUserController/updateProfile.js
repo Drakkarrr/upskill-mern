@@ -7,10 +7,10 @@ const updateProfile = async (userModel, req, res) => {
   const userProfile = req[reqUserName];
 
   if (userProfile.email === 'admin@demo.com') {
-    return res.status(403).json({
+    return res.status(200).json({
       success: false,
       result: null,
-      message: "you couldn't update demo informations",
+      message: 'This is work in progress paaaa',
     });
   }
 
