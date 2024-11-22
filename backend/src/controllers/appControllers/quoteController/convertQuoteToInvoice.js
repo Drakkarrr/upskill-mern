@@ -1,8 +1,8 @@
 const convertQuoteToInvoice = async (req, res) => {
   return res.status(200).json({
-    success: true,
+    success: false,
     result: null,
-    message: 'Please Upgrade to Premium  Version to have full features',
+    message: 'Work in progress (wala ni sa scope hehe)',
   });
 };
 
