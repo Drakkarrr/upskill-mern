@@ -143,15 +143,6 @@ export default function ReadItem({ config, selectedItem }) {
           <Button
             key={`${uniqueId()}`}
             onClick={() => {
-              navigate(`/${entity.toLowerCase()}`);
-            }}
-            icon={<CloseCircleOutlined />}
-          >
-            {translate('Close')}
-          </Button>,
-          <Button
-            key={`${uniqueId()}`}
-            onClick={() => {
               window.open(
                 `${DOWNLOAD_BASE_URL}${entity}/${entity}-${currentErp._id}.pdf`,
                 '_blank'
@@ -161,26 +152,27 @@ export default function ReadItem({ config, selectedItem }) {
           >
             {translate('Download PDF')}
           </Button>,
-          <Button
-            key={`${uniqueId()}`}
-            loading={mailInProgress}
-            onClick={() => {
-              send(currentErp._id);
-            }}
-            icon={<MailOutlined />}
-          >
-            {translate('Send by Email')}
-          </Button>,
-          <Button
-            key={`${uniqueId()}`}
-            onClick={() => {
-              dispatch(erp.convert({ entity, id: currentErp._id }));
-            }}
-            icon={<RetweetOutlined />}
-            style={{ display: entity === 'quote' ? 'inline-block' : 'none' }}
-          >
-            {translate('Convert to Invoice')}
-          </Button>,
+
+          // <Button
+          //   key={`${uniqueId()}`}
+          //   loading={mailInProgress}
+          //   onClick={() => {
+          //     send(currentErp._id);
+          //   }}
+          //   icon={<MailOutlined />}
+          // >
+          //   {translate('Send by Email')}
+          // </Button>,
+          // <Button
+          //   key={`${uniqueId()}`}
+          //   onClick={() => {
+          //     dispatch(erp.convert({ entity, id: currentErp._id }));
+          //   }}
+          //   icon={<RetweetOutlined />}
+          //   style={{ display: entity === 'quote' ? 'inline-block' : 'none' }}
+          // >
+          //   {translate('Convert to Invoice')}
+          // </Button>,
 
           <Button
             key={`${uniqueId()}`}
@@ -197,6 +189,16 @@ export default function ReadItem({ config, selectedItem }) {
             icon={<EditOutlined />}
           >
             {translate('Edit')}
+          </Button>,
+
+          <Button
+            key={`${uniqueId()}`}
+            onClick={() => {
+              navigate(`/${entity.toLowerCase()}`);
+            }}
+            icon={<CloseCircleOutlined />}
+          >
+            {translate('Close')}
           </Button>,
         ]}
         style={{
