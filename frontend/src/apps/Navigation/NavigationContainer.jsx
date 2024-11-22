@@ -106,6 +106,11 @@ function Sidebar({ collapsible, isMobile = false }) {
       label: <Link to={'/settings'}>{translate('settings')}</Link>,
       icon: <SettingOutlined />,
     },
+    {
+      key: 'logs',
+      label: <Link to={'/logs'}>Logs</Link>,
+      icon: <SettingOutlined />,
+    },
   ];
 
   useEffect(() => {
