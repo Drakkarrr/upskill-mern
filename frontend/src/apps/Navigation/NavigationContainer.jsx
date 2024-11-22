@@ -81,6 +81,11 @@ function Sidebar({ collapsible, isMobile = false }) {
       label: <Link to={'/invoice'}>{translate('invoices')}</Link>,
     },
     {
+      key: 'suppliers',
+      icon: <ContainerOutlined />,
+      label: <Link to={'/suppliers'}>Suppliers</Link>,
+    },
+    {
       key: 'quote',
       icon: <FileSyncOutlined />,
       label: <Link to={'/quote'}>{translate('quote')}</Link>,
@@ -167,18 +172,24 @@ function Sidebar({ collapsible, isMobile = false }) {
           cursor: 'pointer',
         }}
       >
-        {/* <img src={logoIcon} alt="Logo" style={{ marginLeft: '-5px', height: '40px' }} /> */}
+        <img
+          src="https://t3.ftcdn.net/jpg/05/67/74/88/360_F_567748875_IpZmOy1dWLTY0ni0J7KQLrWg9hBHCs15.jpg"
+          alt="Logo"
+          style={{ marginLeft: '-5px', height: '40px' }}
+        />
         {!showLogoApp && (
-          // <img
-          //   src={logoText}
-          //   alt="Logo"
-          //   style={{
-          //     marginTop: '3px',
-          //     marginLeft: '10px',
-          //     height: '38px',
-          //   }}
-          // />
-          <h1>Logo Here</h1>
+          <img
+            src={
+              'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/2560px-Test-Logo.svg.png'
+            }
+            alt="Logo"
+            style={{
+              marginTop: '3px',
+              marginLeft: '10px',
+              height: '38px',
+            }}
+          />
+          // <h1>Logo Here</h1>
         )}
       </div>
       <Menu
