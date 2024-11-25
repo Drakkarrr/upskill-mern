@@ -2,19 +2,19 @@
   {
     "settingCategory": "money_format_settings",
     "settingKey": "default_currency_code",
-    "settingValue": "USD",
+    "settingValue": "PHP",
     "valueType": "string"
   },
   {
     "settingCategory": "money_format_settings",
     "settingKey": "currency_name",
-    "settingValue": "US Dollars",
+    "settingValue": "PHP",
     "valueType": "string"
   },
   {
     "settingCategory": "money_format_settings",
     "settingKey": "currency_symbol",
-    "settingValue": "$",
+    "settingValue": "₱",
     "valueType": "string"
   },
   {

@@ -2,7 +2,7 @@
   {
     "settingCategory": "company_settings",
     "settingKey": "company_name",
-    "settingValue": "COMPANY Name",
+    "settingValue": "Recamadas Optical",
     "valueType": "string"
   },
   {
@@ -20,37 +20,37 @@
   {
     "settingCategory": "company_settings",
     "settingKey": "company_address",
-    "settingValue": "25 , Your Company Address",
+    "settingValue": "Aguada Burgos street",
     "valueType": "string"
   },
   {
     "settingCategory": "company_settings",
     "settingKey": "company_state",
-    "settingValue": "New York",
+    "settingValue": "Testtt",
     "valueType": "string"
   },
   {
     "settingCategory": "company_settings",
     "settingKey": "company_country",
-    "settingValue": "United State",
+    "settingValue": "Philippines",
     "valueType": "string"
   },
   {
     "settingCategory": "company_settings",
     "settingKey": "company_email",
-    "settingValue": "youremail@example.com",
+    "settingValue": "aloha@recamadas.com",
     "valueType": "string"
   },
   {
     "settingCategory": "company_settings",
     "settingKey": "company_phone",
-    "settingValue": "+1 345234654",
+    "settingValue": "+639123456789",
     "valueType": "string"
   },
   {
     "settingCategory": "company_settings",
     "settingKey": "company_website",
-    "settingValue": "www.example.com",
+    "settingValue": "www.recamadasoptical.com",
     "valueType": "string"
   },
   {
