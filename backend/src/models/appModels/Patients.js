@@ -10,15 +10,33 @@ const schema = new mongoose.Schema({
     default: true,
   },
 
+  patientId: {
+    type: Number,
+    required: true,
+  },
   fullname: {
     type: String,
     required: true,
   },
-  phone: String,
-  // country: String,
-  // address: String,
-  // email: String,
-  // customer: { type: mongoose.Schema.ObjectId, ref: 'Customer', autopopulate: true },
+  phone: {
+    type: String,
+    required: true,
+  },
+
+  pwdCitizenNo: {
+    type: String,
+  },
+  snrCitizenNo: {
+    type: String,
+  },
+  address: {
+    type: String,
+  },
+
+  medicalHistory: {
+    type: String,
+  },
+
   createdBy: { type: mongoose.Schema.ObjectId, ref: 'Admin' },
   assigned: { type: mongoose.Schema.ObjectId, ref: 'Admin' },
   created: {
