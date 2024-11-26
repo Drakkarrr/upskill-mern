@@ -2,10 +2,7 @@ import CrudModule from '@/modules/CrudModule/CrudModule';
 import DynamicForm from '@/forms/DynamicForm';
 import { fields } from './config';
 
-import useLanguage from '@/locale/useLanguage';
-
 export default function Patients() {
-  const translate = useLanguage();
   const entity = 'patients';
   const searchConfig = {
     displayLabels: ['fullname'],
