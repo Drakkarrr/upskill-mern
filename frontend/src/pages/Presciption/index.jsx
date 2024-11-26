@@ -1,7 +1,7 @@
 import dayjs from 'dayjs';
 import { Tag } from 'antd';
 import { tagColor } from '@/utils/statusTagColor';
-// import PrescriptionDataTableModule from '@/modules/PrescriptionModule/PrescriptionDataTableModule';
+import PrescriptionDataTableModule from '@/modules/PrescriptionModule/PrescriptionDataTableModule';
 import { useMoney, useDate } from '@/settings';
 import useLanguage from '@/locale/useLanguage';
 

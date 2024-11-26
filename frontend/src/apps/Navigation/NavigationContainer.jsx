@@ -60,19 +60,19 @@ function Sidebar({ collapsible, isMobile = false }) {
       label: <Link to={'/patients'}>Patients</Link>,
     },
     {
+      key: 'customer',
+      icon: <CustomerServiceOutlined />,
+      label: <Link to={'/customer'}>{translate('customers')}</Link>,
+    },
+    {
       key: 'prescription',
       icon: <CustomerServiceOutlined />,
-      label: <Link to={'/prescription'}>Prescriptions</Link>,
+      label: <Link to={'/prescriptions'}>Prescriptions</Link>,
     },
     {
       key: 'inventory',
       icon: <CustomerServiceOutlined />,
       label: <Link to={'/inventory'}>Inventory</Link>,
-    },
-    {
-      key: 'customer',
-      icon: <CustomerServiceOutlined />,
-      label: <Link to={'/customer'}>{translate('customers')}</Link>,
     },
 
     {
