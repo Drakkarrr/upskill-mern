@@ -30,6 +30,7 @@ const Profile = lazy(() => import('@/pages/Profile'));
 const About = lazy(() => import('@/pages/About'));
 
 const Patients = lazy(() => import('@/pages/Patients'));
+const Prescription = lazy(() => import('@/pages/Presciption'));
 
 let routes = {
   expense: [],
@@ -53,6 +54,10 @@ let routes = {
     {
       path: '/patients',
       element: <Patients />,
+    },
+    {
+      path: '/prescription',
+      element: <Prescription />,
     },
     {
       path: '/customer',

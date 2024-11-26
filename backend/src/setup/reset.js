@@ -15,7 +15,7 @@ async function deleteData() {
   await AdminPassword.deleteMany();
   await PaymentMode.deleteMany();
   await Taxes.deleteMany();
-  console.log('👍 Admin Deleted. To setup demo admin data, run\n\n\t npm run setup\n\n');
+  console.log('👍 Admin Deleted. To setup admin data, run\n\n\t npm run setup\n\n');
   await Setting.deleteMany();
   console.log('👍 Setting Deleted. To setup Setting data, run\n\n\t npm run setup\n\n');
 
