@@ -67,7 +67,7 @@ function Sidebar({ collapsible, isMobile = false }) {
     {
       key: 'invoice',
       icon: <ContainerOutlined />,
-      label: <Link to={'/invoice'}>{translate('invoices')}</Link>,
+      label: <Link to={'/invoice'}>Special Prescription Invoice</Link>,
     },
     {
       key: 'inventory',
@@ -75,11 +75,6 @@ function Sidebar({ collapsible, isMobile = false }) {
       label: <Link to={'/inventory'}>Inventory</Link>,
     },
 
-    {
-      key: 'suppliers',
-      icon: <ContainerOutlined />,
-      label: <Link to={'/suppliers'}>Suppliers</Link>,
-    },
     {
       key: 'quote',
       icon: <FileSyncOutlined />,

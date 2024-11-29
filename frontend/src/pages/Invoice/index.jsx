@@ -82,8 +82,8 @@ export default function Invoice() {
   ];
 
   const Labels = {
-    PANEL_TITLE: translate('invoice'),
-    DATATABLE_TITLE: translate('invoice_list'),
+    PANEL_TITLE: 'Special Presentation Invoice',
+    DATATABLE_TITLE: 'Special Presentation Invoice',
     ADD_NEW_ENTITY: translate('add_new_invoice'),
     ENTITY_NAME: translate('invoice'),
 

@@ -1,16 +1,4 @@
 export const fields = {
-  // patient: {
-  //   required: true,
-  //   type: 'search',
-  //   label: 'patients',
-  //   entity: 'patients',
-  //   redirectLabel: 'Add New Patient',
-  //   withRedirect: true,
-  //   urlToRedirect: '/patients',
-  //   displayLabels: ['fullname'],
-  //   searchFields: 'fullname',
-  //   dataIndex: ['fullname'],
-  // },
   rx_id: {
     type: 'string',
   },
