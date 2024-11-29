@@ -12,7 +12,7 @@ export default function Patients() {
 
   const Labels = {
     PANEL_TITLE: 'Patients',
-    DATATABLE_TITLE: 'Patients List',
+    DATATABLE_TITLE: 'Patients Module',
     ADD_NEW_ENTITY: 'Add New Patient',
     ENTITY_NAME: 'Patients',
   };

@@ -14,9 +14,9 @@ export default function Customer() {
   const deleteModalLabels = ['name'];
 
   const Labels = {
-    PANEL_TITLE: translate('client'),
-    DATATABLE_TITLE: translate('client_list'),
-    ADD_NEW_ENTITY: translate('add_new_client'),
+    PANEL_TITLE: 'Prescriptions',
+    DATATABLE_TITLE: 'Prescriptions Module',
+    ADD_NEW_ENTITY: 'Add New Prescription',
     ENTITY_NAME: translate('client'),
   };
   const configPage = {
